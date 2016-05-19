@@ -15,7 +15,7 @@ uses
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.Title := 'RADStudio 10 Seattle Update 1 Keygen';
+  Application.Title := 'RADStudio 10.1 Berlin Keygen & Patch';
   Application.CreateForm(TFrmMain, FrmMain);
   Application.Run;
 end.
