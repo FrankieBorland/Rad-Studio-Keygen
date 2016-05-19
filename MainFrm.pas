@@ -41,7 +41,7 @@ begin
   begin
     if RadKeygen.GenerateActiveFile(Edit1.Text,Edit2.Text,FileName) then
     begin
-      MessageBox(Handle,PChar('Slip files have been saved successfully!'#10+FileName),PChar(Application.Title),MB_OK+MB_ICONINFORMATION);
+      MessageBox(Handle,PChar('Slip file has been saved successfully!'#10+FileName),PChar(Application.Title),MB_OK+MB_ICONINFORMATION);
     end
     else
     begin
@@ -56,7 +56,7 @@ var
 begin
   if RadKeygen.PatchFile(FileName) then
   begin
-    MessageBox(Handle,PChar('path files have been saved successfully!'#10+FileName),PChar(Application.Title),MB_OK+MB_ICONINFORMATION);
+    MessageBox(Handle,PChar('Patch file has been saved successfully!'#10+FileName),PChar(Application.Title),MB_OK+MB_ICONINFORMATION);
   end
   else
   begin
