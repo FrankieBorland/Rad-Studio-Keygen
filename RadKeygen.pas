@@ -641,7 +641,7 @@ begin
           Random(10),Random(10),Random(10),Random(10),Random(10),Random(10)]);
       end
       else
-        FileName:=ExtractFileDir(ParamStr(0))+'\RAD Studio Activation.slip';
+        FileName:=ExtractFileDir(ParamStr(0))+'\RADStudio_10.1_Berlin_Activation.slip';
     end;
     Stream.SaveToFile(FileName);
     PatchmOasisRuntime();
